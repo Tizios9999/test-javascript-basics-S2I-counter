@@ -4,10 +4,10 @@ body {
     text-align: center;
     font-family: 'Press Start 2P', cursive;
     background-color: darkblue;
+    color: yellow;    
 }
 
 .main-app {
-    background-color: yellowgreen;
     min-width: 50%;
     max-width: 80%;
     margin: 0 auto;
@@ -16,16 +16,29 @@ body {
 .counter {
     margin: 56px auto;
     font-size: 32px;
-    background-color: royalblue;
     width: 112px;
     height: 56px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: whitesmoke;
+    
+}
+
+.btn-section {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    user-select: none; /* Prevents selection and highlighting */
+}
+
+.first-wrapper {
+    margin-bottom: 56px;
 }
 
 .counter-btn {
     background-color: darkgrey;
+    color: black;
     font-weight: bold;
     padding: 20px 32px;
     margin: 12px;
@@ -36,3 +49,4 @@ body {
 .counter-btn:hover {
     cursor: pointer;
 }
+
