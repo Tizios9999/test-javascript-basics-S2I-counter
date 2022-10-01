@@ -30,7 +30,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Tizios9999/test-javascript-basics-S2I-counter">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://www.kindpng.com/picc/m/160-1608792_circle-document-icon-png-transparent-png.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">A simple Javascript counter</h3>
@@ -122,8 +122,8 @@ Clicking on the "reset" button will reset the counter.
 
 ## Roadmap
 
-- [ ] Increase the counter by one
-- [ ] Decrease the counter by one
+- [x] Increase the counter by one
+- [x] Decrease the counter by one
 - [x] Reset the counter
 
 See the [open issues](https://github.com/Tizios9999/test-javascript-basics-S2I-counter/issues) for a full list of proposed features (and known issues).
