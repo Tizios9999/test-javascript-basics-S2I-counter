@@ -95,17 +95,11 @@
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
+You don't need to install any package to make it work.
 
 ### Installation
 
@@ -120,9 +114,10 @@ This is an example of how to list things you need to use the software and how to
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Clicking on plus or minus buttons will change the counter value accordingly.
+Clicking on the "reset" button will reset the counter.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+...and that's all!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -199,7 +194,7 @@ Project Link: [https://github.com/Tizios9999/test-javascript-basics-S2I-counter]
 [license-url]: https://github.com/Tizios9999/test-javascript-basics-S2I-counter/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/davide-santonocito-36ab84170
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: img/preview.png
 [next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [next-url]: https://nextjs.org/
 [react.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
