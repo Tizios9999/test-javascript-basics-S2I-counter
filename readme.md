@@ -33,10 +33,10 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">A simple Javascript counter</h3>
 
   <p align="center">
-    project_description
+    A simple counter made with JS and CSS
     <br />
     <a href="https://github.com/Tizios9999/test-javascript-basics-S2I-counter"><strong>Explore the docs »</strong></a>
     <br />
@@ -81,20 +81,13 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
-- [![Next][next.js]][next-url]
-- [![React][react.js]][react-url]
-- [![Vue][vue.js]][vue-url]
-- [![Angular][angular.io]][angular-url]
-- [![Svelte][svelte.dev]][svelte-url]
-- [![Laravel][laravel.com]][laravel-url]
-- [![Bootstrap][bootstrap.com]][bootstrap-url]
-- [![JQuery][jquery.com]][jquery-url]
+- HTML
+- CSS
+- Javascript
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,18 +109,9 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/Tizios9999/test-javascript-basics-S2I-counter.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = "ENTER YOUR API";
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -184,7 +168,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Davide Santonocito - davide.santonocito@outlook.com
 
 Project Link: [https://github.com/Tizios9999/test-javascript-basics-S2I-counter](https://github.com/Tizios9999/test-javascript-basics-S2I-counter)
 
@@ -214,7 +198,7 @@ Project Link: [https://github.com/Tizios9999/test-javascript-basics-S2I-counter]
 [license-shield]: https://img.shields.io/github/license/Tizios9999/test-javascript-basics-S2I-counter.svg?style=for-the-badge
 [license-url]: https://github.com/Tizios9999/test-javascript-basics-S2I-counter/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://linkedin.com/in/davide-santonocito-36ab84170
 [product-screenshot]: images/screenshot.png
 [next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [next-url]: https://nextjs.org/
