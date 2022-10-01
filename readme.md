@@ -124,7 +124,7 @@ Clicking on the "reset" button will reset the counter.
 
 - [ ] Increase the counter by one
 - [ ] Decrease the counter by one
-- [ ] Reset the counter
+- [x] Reset the counter
 
 See the [open issues](https://github.com/Tizios9999/test-javascript-basics-S2I-counter/issues) for a full list of proposed features (and known issues).
 
