@@ -1,0 +1,38 @@
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    background-color: darkblue;
+}
+
+.main-app {
+    background-color: yellowgreen;
+    min-width: 50%;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.counter {
+    margin: 56px auto;
+    font-size: 32px;
+    background-color: royalblue;
+    width: 112px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter-btn {
+    background-color: darkgrey;
+    font-weight: bold;
+    padding: 20px 32px;
+    margin: 12px;
+    border-radius: 8px;
+    border: 2px solid grey;
+}
+
+.counter-btn:hover {
+    cursor: pointer;
+}
