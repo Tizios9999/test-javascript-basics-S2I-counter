@@ -41,7 +41,7 @@
     <a href="https://github.com/Tizios9999/test-javascript-basics-S2I-counter"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Tizios9999/test-javascript-basics-S2I-counter">View Demo</a>
+    <a href="https://tizios9999.github.io/test-javascript-basics-S2I-counter">View Demo</a>
     ·
     <a href="https://github.com/Tizios9999/test-javascript-basics-S2I-counter/issues">Report Bug</a>
     ·
@@ -138,7 +138,7 @@ Davide Santonocito - davide.santonocito@outlook.com
 
 Project Link: [https://github.com/Tizios9999/test-javascript-basics-S2I-counter](https://github.com/Tizios9999/test-javascript-basics-S2I-counter)
 
-Live on: [https://tizios9999.github.io/test-javascript-basics-S2I-counter/](https://github.com/Tizios9999/test-javascript-basics-S2I-counter)
+Live at: [https://tizios9999.github.io/test-javascript-basics-S2I-counter/](https://tizios9999.github.io/test-javascript-basics-S2I-counter)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
