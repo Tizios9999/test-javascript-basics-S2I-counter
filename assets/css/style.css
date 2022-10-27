@@ -25,7 +25,7 @@ body {
     
 }
 
-.btn-section {
+.btn-wrapper {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-evenly;
