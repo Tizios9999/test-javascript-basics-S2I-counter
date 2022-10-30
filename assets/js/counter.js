@@ -47,13 +47,13 @@ function renderPage() {
     
 }
     
-function updateCounter(element) {
+function updateCounterLabel(element) {
     element.textContent = counter;
 }
 
 function initializeCounter() {
     counter = 0;
-    updateCounter(numberElement);
+    updateCounterLabel(numberElement);
 }
 
 function modifyCounter(number) {
@@ -61,7 +61,7 @@ function modifyCounter(number) {
     if (Math.abs(counter) > NUMBER_LIMIT) { 
         initializeCounter(); 
     } else {
-        updateCounter(numberElement);
+        updateCounterLabel(numberElement);
     }
 }
 
