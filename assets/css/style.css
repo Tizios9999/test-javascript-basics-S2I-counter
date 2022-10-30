@@ -13,7 +13,7 @@ body {
     margin: 0 auto;
 }
 
-.counter {
+.number {
     margin: 56px auto;
     font-size: 32px;
     width: 112px;
@@ -26,14 +26,12 @@ body {
 }
 
 .btn-wrapper {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-evenly;
+    display: grid;
+    gap: 20px;
+    grid-template-areas:
+    " . . minus plus . . "
+    " . . reset reset . . ";
     user-select: none; /* Prevents selection and highlighting */
-}
-
-.first-wrapper {
-    margin-bottom: 56px;
 }
 
 .counter-btn {
@@ -41,7 +39,6 @@ body {
     color: black;
     font-weight: bold;
     padding: 20px 32px;
-    margin: 12px;
     border-radius: 8px;
     border: 2px solid grey;
 }
@@ -50,3 +47,14 @@ body {
     cursor: pointer;
 }
 
+.minus {
+    grid-area: minus;
+}
+
+.plus {
+    grid-area: plus;
+}
+
+.reset {
+    grid-area: reset;
+}

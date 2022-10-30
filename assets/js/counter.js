@@ -3,6 +3,7 @@
 const headerElement = document.createElement('header');
 const h1Element = document.createElement('h1');
 const h1TextNode = document.createTextNode('A simple JS counter');
+const mainSection = document.createElement('main');
 const counterWrapperElement = document.createElement('div');
 counterWrapperElement.classList.add('counter-wrapper');
 const numberElement = document.createElement('span');
@@ -11,21 +12,37 @@ numberElement.classList.add('number');
 const btnWrapper = document.createElement('div');
 btnWrapper.classList.add('btn-wrapper');
 
-const btnPlus = document.createElement('span');
+const btnPlus = document.createElement('div');
 btnPlus.classList.add('counter-btn', 'plus');
+const plusTextNode = document.createTextNode('+');
 
-const btnMinus = document.createElement('span');
+const btnMinus = document.createElement('div');
 btnMinus.classList.add('counter-btn', 'minus');
+const minusTextNode = document.createTextNode('-');
 
-const btnReset = document.createElement('span');
+const btnReset = document.createElement('div');
 btnReset.classList.add('counter-btn', 'reset');
+const resetTextNode = document.createTextNode('Reset');
+
+
 
 // Append elements
 
+const appSection = document.querySelector(".main-app");
+
+appSection.appendChild(headerElement);
+headerElement.appendChild(h1Element);
+h1Element.appendChild(h1TextNode);
+appSection.appendChild(mainSection);
+mainSection.appendChild(counterWrapperElement);
+counterWrapperElement.appendChild(numberElement);
+mainSection.appendChild(btnWrapper);
+btnWrapper.appendChild(btnMinus).appendChild(minusTextNode);
+btnWrapper.appendChild(btnPlus).appendChild(plusTextNode);
+btnWrapper.appendChild(btnReset).appendChild(resetTextNode);
 
 // Initial counter setup
 let counter;
-const counterElement = document.querySelector(".number");
 const NUMBER_LIMIT = 99; // After reaching the number limit, the counter will restart from 0
 
 function counterUpdate(element) {
@@ -34,7 +51,7 @@ function counterUpdate(element) {
 
 function counterInit() {
     counter = 0;
-    counterUpdate(counterElement);
+    counterUpdate(numberElement);
 }
 
 function modifyCounter(number) {
@@ -42,7 +59,7 @@ function modifyCounter(number) {
     if (Math.abs(counter) > NUMBER_LIMIT) { 
         counterInit(); 
     } else {
-        counterUpdate(counterElement);
+        counterUpdate(numberElement);
     }
 }
 
@@ -50,9 +67,7 @@ counterInit();
 
 // Button click events
 
-btnSection = document.querySelector(".btn-section");
-
-btnSection.addEventListener("click", function(e) {
+btnWrapper.addEventListener("click", function(e) {
     e.target.classList.contains("plus") ? modifyCounter(1) : 
     e.target.classList.contains("minus") ? modifyCounter(-1): 
     e.target.classList.contains("reset") ? counterInit() :
