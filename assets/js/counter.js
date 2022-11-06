@@ -25,15 +25,14 @@ function renderPage() {
     
     const appSection = document.querySelector(".main-app");
     
-    appSection.appendChild(headerElement);
+    appSection.append(headerElement, mainSection);
     headerElement.appendChild(h1Element);
-    appSection.appendChild(mainSection);
-    mainSection.appendChild(counterWrapperElement);
+    
+    mainSection.append(counterWrapperElement, btnWrapper);
+    
     counterWrapperElement.appendChild(numberElement);
-    mainSection.appendChild(btnWrapper);
-    btnWrapper.appendChild(btnMinus);
-    btnWrapper.appendChild(btnPlus);
-    btnWrapper.appendChild(btnReset);
+
+    btnWrapper.append(btnMinus, btnPlus, btnReset);
     
     
 }
