@@ -1,32 +1,24 @@
 // Functions declarations
 
+function createHtmlElement(tag, classes = '', htmlContent = '') {
+    const el = document.createElement(`${tag}`);
+    if (classes) el.className = classes;
+    el.innerHTML = htmlContent;
+
+    return el;
+}
+
 function renderPage() {
 
-    const headerElement = document.createElement('header');
-    const h1Element = document.createElement('h1');
-    const h1TextNode = document.createTextNode('A simple JS counter');
-    const mainSection = document.createElement('main');
-    const counterWrapperElement = document.createElement('div');
-    counterWrapperElement.classList.add('counter-wrapper');
-    const numberElement = document.createElement('span');
-    numberElement.classList.add('number');
-    
-    
-    const btnWrapper = document.createElement('div');
-    btnWrapper.classList.add('btn-wrapper');
-    
-    const btnPlus = document.createElement('div');
-    btnPlus.classList.add('counter-btn', 'plus');
-    const plusTextNode = document.createTextNode('+');
-    
-    const btnMinus = document.createElement('div');
-    btnMinus.classList.add('counter-btn', 'minus');
-    const minusTextNode = document.createTextNode('-');
-    
-    const btnReset = document.createElement('div');
-    btnReset.classList.add('counter-btn', 'reset');
-    const resetTextNode = document.createTextNode('Reset');
-    
+    const headerElement = createHtmlElement('header');
+    const h1Element = createHtmlElement('h1','','A simple JS counter');
+    const mainSection = createHtmlElement('main');
+    const counterWrapperElement = createHtmlElement('div', 'counter-wrapper');
+    const numberElement = createHtmlElement('span', 'number');
+    const btnWrapper = createHtmlElement('div', 'btn-wrapper');
+    const btnPlus = createHtmlElement('div', 'counter-btn plus', '+');
+    const btnMinus = createHtmlElement('div', 'counter-btn minus', '-');
+    const btnReset = createHtmlElement('div', 'counter-btn reset', 'reset');
     
     
     // Append elements
@@ -35,14 +27,13 @@ function renderPage() {
     
     appSection.appendChild(headerElement);
     headerElement.appendChild(h1Element);
-    h1Element.appendChild(h1TextNode);
     appSection.appendChild(mainSection);
     mainSection.appendChild(counterWrapperElement);
     counterWrapperElement.appendChild(numberElement);
     mainSection.appendChild(btnWrapper);
-    btnWrapper.appendChild(btnMinus).appendChild(minusTextNode);
-    btnWrapper.appendChild(btnPlus).appendChild(plusTextNode);
-    btnWrapper.appendChild(btnReset).appendChild(resetTextNode);
+    btnWrapper.appendChild(btnMinus);
+    btnWrapper.appendChild(btnPlus);
+    btnWrapper.appendChild(btnReset);
     
     
 }
